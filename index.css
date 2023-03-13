@@ -1,0 +1,283 @@
+.App {
+  background-color: #d3dae0;
+  min-height: 100vh;
+  padding: 50px;
+}
+.app-box1 {
+  background-color: #fff;
+  min-height: 100vh;
+  border-radius: 15px;
+  display: flex;
+  overflow: hidden;
+}
+.menu-container {
+  width: 22%;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.music-container {
+  width: 55%;
+  min-height: 100vh;
+  background-color: #e7ecf0;
+  padding: 0px 30px 0px 30px;
+}
+.artist-container {
+  width: 23%;
+  min-height: 100vh;
+  background-color: #e7ecf0;
+}
+.logo-container {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.logo-container h3 {
+  color: rgb(229, 197, 15);
+}
+.logo-container span {
+  color: black;
+}
+.home-container {
+  margin-top: 40px;
+}
+.home-box {
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  /* width: 70%; */
+  color: #fff;
+}
+.home-box span {
+  margin-left: 10px;
+}
+.tread-box {
+  padding: 20px;
+  border-radius: 6px;
+  color: rgb(123, 116, 116);
+  /* margin-top: 25px; */
+}
+.tread-box span {
+  margin-left: 10px;
+}
+.greater {
+  margin-bottom: 2rem;
+}
+.discover-container h5 {
+  color: rgb(169, 159, 159);
+}
+.discover-items {
+  color: rgb(123, 116, 116);
+  margin-bottom: 20px;
+}
+.discover-items span {
+  margin-left: 10px;
+}
+.discover-items i {
+  margin-left: 20px;
+}
+.line-bar {
+  margin-top: 80px;
+}
+
+.tyes-container {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.tyes-card {
+  margin-left: 20px;
+  display: flex;
+}
+.pic-box {
+  width: 30%;
+}
+.tyes {
+  width: 50%;
+}
+.greater-sign {
+  width: 20%;
+}
+.pic-carrier {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-top: 6px;
+}
+.pic-carrier img {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 100%;
+}
+.tyes p {
+  color: rgb(123, 116, 116);
+  font-weight: bold;
+}
+.greater-sign p i {
+  float: right;
+}
+
+/** playlist Section **/
+.search-box {
+  display: flex;
+}
+.arrow-picker {
+  display: flex;
+  margin-top: 15px;
+  font-size: 25px;
+}
+.second-picker {
+  margin-left: 20px;
+}
+
+input {
+  width: 100%;
+  margin-left: 20px;
+  outline: none;
+  border: none;
+  margin-top: 15px;
+  border-radius: 25px;
+}
+::placeholder {
+  margin-left: 30px;
+}
+.trending-box {
+  width: 100%;
+  margin-top: 30px;
+  color: #7b8085;
+  display: flex;
+}
+
+.trending-carrier {
+  width: 70%;
+}
+.trending-carrier span {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+}
+.move {
+  width: 30%;
+  color: #7b8085;
+  margin-right: 5px;
+}
+.move p {
+  float: right;
+}
+.borad-box {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.image-box {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  opacity: 0.7;
+}
+.image-box img {
+  width: 100%;
+  height: 200px;
+}
+.pic-card {
+  width: 30%;
+  padding: 40px;
+  position: absolute;
+  top: 200px;
+}
+.pic-card span {
+  color: #212324;
+}
+.world {
+  font-size: 25px;
+  font-weight: bold;
+}
+.button-box {
+  display: flex;
+}
+.button-box button {
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+}
+.play {
+  background-color: #000;
+  color: #fff;
+}
+.fellow {
+  margin-left: 30px;
+  background-color: #fff;
+  color: #000;
+}
+
+.playlist-container {
+  display: flex;
+}
+.playlist {
+  width: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #000;
+}
+.show-all {
+  width: 50%;
+  margin-top: 40px;
+  color: #7b8085;
+}
+.show-all span {
+  float: right;
+}
+.table {
+  margin-top: 20px;
+  color: #7b8085;
+}
+table {
+  width: 100%;
+  text-align: center;
+}
+table tr th {
+  padding: 10px;
+  font-size: 13px;
+  font-family: "Times New Roman", Times, serif;
+}
+table tr td {
+  padding: 10px;
+  font-size: 13px;
+  font-family: "Times New Roman", Times, serif;
+}
+.timer-box {
+  background-color: #fff;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.icon-container {
+  display: flex;
+}
+.first-icons {
+  display: flex;
+  margin-left: 20px;
+}
+.first-icons span {
+  height: 20px;
+  width: 20px;
+}
+.second-icons {
+  display: flex;
+  margin-left: 80px;
+}
+.second-icons span {
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+}
+.third-icons {
+  display: flex;
+}
+.love-icon {
+  margin-left: 10px;
+}
+.symbol {
+  margin-left: 20px;
+}
